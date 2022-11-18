@@ -3,20 +3,7 @@ import React, { Component } from 'react'
 export default class APP extends Component {
     myref = React.createRef()
     state = {
-        list:[
-            {
-                id:1,
-                mytext:"aaa"
-            },
-            {
-                id:2,
-                mytext:"bbb"
-            },
-            {
-                id:3,
-                mytext:"ccc"
-            },
-            ]
+        list:[ {id:1,mytext:"aaa"},{id:2,mytext:"bbb"},{id:3,mytext:"ccc"}]
     }
   render() {
     return (
