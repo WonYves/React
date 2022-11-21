@@ -21,6 +21,7 @@ export default class APP extends Component {
                 }
           </ul>
                     {this.state.list.length===0 && <div>待办事项空空如也</div>}
+                    {/* {this.state.list.length===0 ? null : <div>待办事项空空如也</div> } */}
       </div>
     )
   }
