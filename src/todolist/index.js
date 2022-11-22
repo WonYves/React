@@ -43,6 +43,7 @@ export default class APP extends Component {
     newlist.splice(index,1)
     this.setState({
         list:newlist
+        // list:newlist
     })
   }
 }
