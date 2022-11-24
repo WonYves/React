@@ -29,8 +29,8 @@ const TodoList = () => {
           -----<button onClick={()=> handleDelete(index)}>删除</button>
          </li> )}
       </ul>
-      {/* { datalist.length === 0 && <div>待办事项空空如也</div> } */}
-      { datalist.length === 0 ? null : <div>待办事项空空如也</div> }   
+      { datalist.length === 0 && <div>待办事项空空如也</div> }
+      {/* { datalist.length === 0 ? null : <div>待办事项空空如也</div> }    */}
     </Fragment>
   )
 }
